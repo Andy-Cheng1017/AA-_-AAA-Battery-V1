@@ -1,0 +1,82 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L 1Resouse:M3406 U2
+U 1 1 60E3EEB2
+P 5100 1900
+F 0 "U2" H 5100 2265 50  0000 C CNN
+F 1 "M3406" H 5100 2174 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-5" H 4900 2000 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/lcsc/1811152339_XI-AN-Aerosemi-Tech-M3406-ADJ_C83224.pdf" H 4900 2000 50  0001 C CNN
+	1    5100 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L 1Resouse:PST4061-42 U1
+U 1 1 60E3F234
+P 5000 2800
+F 0 "U1" H 5000 3165 50  0000 C CNN
+F 1 "PST4061-42" H 5000 3074 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-6" H 4500 2700 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/lcsc/2006040213_phaetonsemi-PST4061-42-SOT236_C516073.pdf" H 4800 2800 50  0001 C CNN
+	1    5000 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L 1Resouse:XB4302A U3
+U 1 1 60E3F627
+P 6450 2350
+F 0 "U3" H 6450 2715 50  0000 C CNN
+F 1 "XB4302A" H 6450 2624 50  0000 C CNN
+F 2 "1Resouse:SOIC-4" H 6450 2350 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/lcsc/2106071303_XySemi-XB4302A_C2681925.pdf" H 6450 2350 50  0001 C CNN
+	1    6450 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Type-C:HRO-TYPE-C-31-M-12 USB1
+U 1 1 60E403C9
+P 2850 2550
+F 0 "USB1" H 2683 3347 60  0000 C CNN
+F 1 "HRO-TYPE-C-31-M-12" H 2683 3241 60  0000 C CNN
+F 2 "Type-C:HRO-TYPE-C-31-M-12" H 2850 2550 60  0001 C CNN
+F 3 "" H 2850 2550 60  0001 C CNN
+	1    2850 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Q_NMOS_GSD Q?
+U 1 1 60E58BD7
+P 7600 2200
+F 0 "Q?" H 7805 2246 50  0000 L CNN
+F 1 "2N7002H" H 7805 2155 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 7800 2300 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/lcsc/Diodes-Incorporated-2N7002H-7_C150714.pdf" H 7600 2200 50  0001 C CNN
+	1    7600 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:L L?
+U 1 1 60E64AFB
+P 4050 2050
+F 0 "L?" V 4240 2050 50  0000 C CNN
+F 1 "L" V 4149 2050 50  0000 C CNN
+F 2 "" H 4050 2050 50  0001 C CNN
+F 3 "~" H 4050 2050 50  0001 C CNN
+	1    4050 2050
+	0    -1   -1   0   
+$EndComp
+$EndSCHEMATC

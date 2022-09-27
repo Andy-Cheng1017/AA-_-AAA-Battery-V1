@@ -1,0 +1,15 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP M3406
+F https://datasheet.lcsc.com/lcsc/1811152339_XI-AN-Aerosemi-Tech-M3406-ADJ_C83224.pdf
+$ENDCMP
+#
+$CMP PST4061-42
+F https://datasheet.lcsc.com/lcsc/2006040213_phaetonsemi-PST4061-42-SOT236_C516073.pdf
+$ENDCMP
+#
+$CMP XB4302A
+F https://datasheet.lcsc.com/lcsc/2106071303_XySemi-XB4302A_C2681925.pdf
+$ENDCMP
+#
+#End Doc Library
